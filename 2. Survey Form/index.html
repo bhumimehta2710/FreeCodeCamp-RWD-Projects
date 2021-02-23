@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header id="title">
+        <h1>Survey Form</h1>
+    </header>
+    <section class="container">
+        <div id="description">
+            <div>
+                <p>Let us know how we can improve freeCodeCamp</p>
+            </div>
+             <form id="survey-form">
+                <div class="row-tab">
+                 <div class="label-tab">
+                     <label>Name</label>
+                 </div>
+                <div class="input-tab">
+                     <input type="text" name="Name" placeholder="Enter your Name">
+                 </div>
+                 </div>
+
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-tab">
+                        <input type="email" name="email" placeholder="Enter your E-mail">
+                    </div>
+                </div>
+
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>Age</label>
+                    </div>
+                    <div class="input-tab">
+                        <input type="number" name="Age" placeholder="Enter your age">
+                    </div>    
+                </div>
+
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>Which option best describes your current role?</label>
+                    </div>
+                    <div class="select-tab">
+                        <select id="select-box">
+                            <option>Student</option>
+                            <option>Job Holder</option>
+                            <option>Businessman</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+                    </div>
+                    <div class="input-tab">
+                        <div><input type="radio" name="suggest" value="Definitely"><label>Definitely</label></div>
+                        <div><input type="radio" name="suggest"><label>Maybe</label></div>
+                        <div><input type="radio" name="suggest"><label>Not Sure</label></div>
+                    </div>
+                </div>
+
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>What do you like most in FCC?</label>
+                    </div>
+                    <div class="select-tab">
+                            <select>
+                                <option>Select an Option</option>
+                                <option>Projects</option>
+                                <option>Coding Challenges</option>
+                                <option>Tutorials</option>
+                                <option>Blogs</option>
+                            </select>
+                    </div>
+                </div>
+
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>Things that should be improved in the future (Check all that apply)</label>
+                    </div>
+                    <div class="input-tab"> 
+                        <input type="radio" name="project" value="Front-end Project"><label>Front-End Projects</label>
+                        <input type="radio" name="project" value="Back-end Project"><label>Back-End Projects</label>
+                        <input type="radio" name="project" value="Data Vizualization"><label>Data Visualization</label>
+                    </div>
+                </div>
+                    
+             </form>
+        </div>
+        <div id="submitbutton">
+            <button type="submit" id="submit">Send your application</button>  
+         </div>
+        
+    </section>
+
+
+</body>
+</html>
